@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background: #ffffff;
+}
+
+.header {
+    height: 100px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    margin: auto;
+    width: 1190px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #373737;
+}
+
+.logo-text_info {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #636363;
+}
+
+.header-nav {
+    width: 358px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding-left: 0;
+    list-style: none;
+}
+
+/*.active {
+    color: #00BA59;
+}*/
+
+.header-menu>li {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header-menu>li:hover {
+    position: relative;
+    color: #00BA59;
+}
+
+.header-menu>li:hover::before, .header-menu>li:hover::after {
+    color: #00BA59;
+    content: "";
+    position: absolute;
+    width: 86.6px;
+    height: 11.25px;
+    left: -50%;
+}
+
+.header-menu>li:hover::before {
+    top: 0;
+    background-image: url("../assets/img/Polygon 2.png");
+}
+
+.header-menu>li:hover::after {
+    bottom: 0;
+    background-image: url("../assets/img/Polygon 3.png");
+}
+
+.header-menu-link {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #636363;
+}
+
+.number-phone {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: #303030;
+}
+
+.call-back {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
+    color: #00BA89;
+}
+
+.link-call {
+    color: #00BA89;
+}
+
+.number-phone {
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.super-maket {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 73px;
+    color: #00BA89;
+}
+
+.maket-naturally {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 150%;
+    color: #373737;
+}
+
