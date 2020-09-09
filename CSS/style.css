@@ -404,7 +404,15 @@ button:active, button:focus {
 
 }
 
+.call-back_form {
+    position: absolute;
+    width: 316px;
+    top: 51px;
+    left: 361px;
+}
+
 .title-call {
+    margin-bottom: 10px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: bold;
@@ -417,6 +425,7 @@ button:active, button:focus {
 }
 
 .call-contact {
+    margin-bottom: 15px;
     font-family: Montserrat;
     font-style: normal;
     font-weight: normal;
@@ -434,6 +443,7 @@ button:active, button:focus {
 input {
     background: #F2F2F2;
     border: 1px solid #E0E0E0;
+    margin-bottom: 15px;
     box-sizing: border-box;
     border-radius: 100px;
     width: 370px;
@@ -442,6 +452,9 @@ input {
 }
 
 #btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 370px;
     height: 80px;
     background: linear-gradient(180deg, #00BA89 0%, #00BA34 100%);
